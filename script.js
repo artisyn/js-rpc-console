@@ -84,7 +84,6 @@ const game = {
 	//Main game function
 	play: function (option) {
 		const playerOption = option.toLowerCase();
-		console.log(playerOption);
 		//check for wrong input
 		if (
 			playerOption !== 'rock' &&
